@@ -1,0 +1,25 @@
+{
+  "name": "exhaustive-twitter-tools",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YokoyamaLab/Exhaustive-Twitter-Tools.git"
+  },
+  "author": "Shohei Yokoyama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YokoyamaLab/Exhaustive-Twitter-Tools/issues"
+  },
+  "scripts": {
+    "histogram-hashtag": "node ./histogram-hashtag.mjs"
+  },
+  "bin": {
+    "histogram-hashtag": "./histogram-hashtag.mjs"
+  },
+  "homepage": "https://github.com/YokoyamaLab/Exhaustive-Twitter-Tools#readme",
+  "dependencies": {
+    "commander": "^10.0.0"
+  }
+}
